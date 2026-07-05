@@ -1,0 +1,12 @@
+cat > .gitignore << 'EOF'
+venv/
+__pycache__/
+*.pyc
+*.pyc.*
+Swiss-Company-Enricher-main/output/progress.db
+Swiss-Company-Enricher-main/output/logs.txt
+Swiss-Company-Enricher-main/output/*.csv
+enrichment.log
+valais_completo.csv.progress.txt
+debug_page_*
+EOF
